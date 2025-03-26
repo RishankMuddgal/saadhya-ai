@@ -5,9 +5,9 @@ import { getUserId } from "@/lib/utils";
 import type { LoaderFunction } from "react-router";
 import type { Models } from "appwrite";
 
-type TaskCount = {
+type TaskCounts = {
     inboxTasks: number,
-    rodayTasks: number,
+    todayTasks: number,
 
 }
 
@@ -15,7 +15,7 @@ const VITE_APPWRITE_DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
 
 export type AppLoaderData = {
     projects: Models.DocumentList<Models.Document>
-    taskCounts: TaskCount
+    taskCounts: TaskCounts
 }
 
 const getProjects = async ()=>{
@@ -78,13 +78,13 @@ const getTaskCount = async()=>{
             ]
         )
 
-        taskCounts.todayTasks = totalTodayTasks
+        taskCounts.todayTasks = totalTodayTasks;
     }catch(err){
         console.log(err);
         throw new Error('Error getting inbox task counts !');
     }
 
-    // console.log(taskCounts)
+    
     return taskCounts;
 }
 const appLoader: LoaderFunction = async()=>{
