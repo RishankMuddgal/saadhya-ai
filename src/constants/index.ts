@@ -1,20 +1,17 @@
 import { Calendar1, CircleCheck, CalendarDays, Inbox } from 'lucide-react';
 
 export const SOCIAL_LINKS = [
+  
   {
-    href: 'https://youtube.com/codewithsadee',
-    label: 'YouTube',
-  },
-  {
-    href: 'https://linkedin.com/in/codewithsadee',
+    href: 'https://www.linkedin.com/in/rishank-muddgal-554133247/',
     label: 'LinkedIn',
   },
   {
-    href: 'https://github.com/codewithsadee',
+    href: 'https://github.com/RishankMuddgal',
     label: 'GitHub',
   },
   {
-    href: 'https://instagram.com/codewithsadee',
+    href: 'https://www.instagram.com/rishankmuddgal0',
     label: 'Instagram',
   },
 ] as const;

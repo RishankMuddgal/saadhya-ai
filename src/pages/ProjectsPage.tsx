@@ -28,7 +28,7 @@ const ProjectsPage = () => {
     const {projects} = fetcherData || loaderData;
     const [searchingState, setSearchingState] = useState<SearchingState>('idle');
     
-    const searchTimeout = useRef<NodeJS.Timeout>();
+    const searchTimeout = useRef<NodeJS.Timeout>(null);
     const handleProjectSearch  = useCallback((e:React.ChangeEvent<HTMLInputElement>)=>{
         if(searchTimeout.current){
             clearTimeout(searchTimeout.current);

@@ -62,7 +62,7 @@ const ProjectDetailPage = () => {
                             key={$id}
                             id={$id}
                             content={content}
-                            comlpeted={completed}
+                            completed={completed}
                             dueDate={due_date}
                             project={project}></TaskCard>
                     ))
