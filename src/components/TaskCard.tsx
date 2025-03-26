@@ -30,7 +30,7 @@ import {
 type TaskCardProps = {
     id: string;
     content: string;
-    comlpeted: boolean;
+    completed: boolean;
     dueDate: Date;
     project: Models.Document | null;
 }

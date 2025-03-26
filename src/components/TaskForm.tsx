@@ -15,7 +15,7 @@ import {useState, useEffect, useCallback} from 'react';
 import * as chrono from 'chrono-node';
 import { formatCustomDate, getTaskDueDateColorClass,cn } from '@/lib/utils'
 import { useProjects } from '@/contexts/ProjectContext'
-import { ID, Models } from 'appwrite'
+import {  Models } from 'appwrite'
 
 // import { cn } from '@/lib/utils'
 type TaskFormProps = {
@@ -41,7 +41,7 @@ const TaskForm: React.FC<TaskFormProps> = ({
 
     const [taskContent, setTaskContent] = useState(defaultFormData.content);
     const [dueDate, setDueDate] = useState(defaultFormData.due_date);
-    const [taskDueDate, setTaskDueDate] = useState(defaultFormData.due_date);
+    // const [taskDueDate, setTaskDueDate] = useState(defaultFormData.due_date);
     const [projectId, setProjectId] = useState(defaultFormData.project);
     const [projectName, setProjectName] = useState('');
     const [projectColorHex, setProjectColorHex] = useState('');

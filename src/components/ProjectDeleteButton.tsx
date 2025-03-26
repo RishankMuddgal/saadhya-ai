@@ -48,7 +48,7 @@ const ProjectDeleteButton:React.FC<ProjectDeleteButtonProps> = ({
             update({
                 id,
                 title: 'Project deleted !',
-                description: `The project ${truncateString(defaultFormData,32)} has been successfully deleted !`,
+                description: `The project ${truncateString(defaultFormData.name,32)} has been successfully deleted !`,
                 duration: 5000,
             })
         }catch(err){

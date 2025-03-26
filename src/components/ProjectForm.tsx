@@ -134,8 +134,8 @@ const ProjectForm:React.FC<ProjectFormProps> = ({
                         </Button>
                     </PopoverTrigger>
                     <PopoverContent align="start" className="p-0 w-[478px] max-sm:w-[360px]">
-                        <Command>
-                            <CommandInput placeholder='Search color...'></CommandInput>
+                        <Command >
+                            <CommandInput ></CommandInput>
                             <CommandList>
                                 <ScrollArea>
                                     <CommandEmpty>No color found !</CommandEmpty>
