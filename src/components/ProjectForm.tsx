@@ -180,7 +180,7 @@ const ProjectForm:React.FC<ProjectFormProps> = ({
                     </div>
 
                     {aiTaskGen && <Textarea autoFocus 
-                                            placeholder="Tell me about your project. What do you want to accomplish ?"
+                                            placeholder="Tell me about your project. What do you want to accomplish ? Also let me know the due date (if any, write like 'set due date as')"
                                             className="border-none"
                                             value={taskGenPrompt}
                                             onKeyDown={handleKeySubmit}
