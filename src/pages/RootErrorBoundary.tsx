@@ -1,7 +1,7 @@
 import { isRouteErrorResponse, useRouteError,Link } from "react-router" 
 import { Button } from '@/components/ui/button'
 import Header from '@/components/Header'
-import Footer from "@/components/Footer"
+// import Footer from "@/components/Footer"
 import { pageNotFound } from "@/assets"
 function RootErrorBoundary() {
     const error = useRouteError();
@@ -30,7 +30,7 @@ function RootErrorBoundary() {
             </figure>
         </div>
 
-        <Footer></Footer>
+{/*         <Footer></Footer> */}
     </div>
   )
 }
