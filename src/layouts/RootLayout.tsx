@@ -13,13 +13,13 @@ const RootLayout = () => {
         <Header/>
         <main className="grow grid grid-cols-1 items-center pt-36 pb-16">
             <Outlet/>
-        </main>
+        </main> 
 
-<<<<<<< HEAD
-        {/* <Footer></Footer> */}
-=======
-{/*         <Footer></Footer> */}
->>>>>>> 5daaf2c261c1fc54a8f7d9ca2193033cc5eef2ea
+
+        
+
+
+
 
         {/* bg */}
         <div className="bg-primary/20 absolute top-20 left-0 w-80 h-10 rotate-45 origin-top-left blur-3xl"></div>

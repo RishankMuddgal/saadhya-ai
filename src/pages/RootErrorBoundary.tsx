@@ -30,11 +30,9 @@ function RootErrorBoundary() {
             </figure>
         </div>
 
-<<<<<<< HEAD
-        {/* <Footer></Footer> */}
-=======
-{/*         <Footer></Footer> */}
->>>>>>> 5daaf2c261c1fc54a8f7d9ca2193033cc5eef2ea
+
+
+
     </div>
   )
 }
