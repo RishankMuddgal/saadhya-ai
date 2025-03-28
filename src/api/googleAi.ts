@@ -15,6 +15,7 @@ Prompt: tell me in very strict order , ${prompt}
       - There must be no contradictions (e.g., no cooling before baking).
       - Keep all steps relevant to the prompt.
       - The 'due_date' should be null unless explicitly specified in the prompt.
+      - Give factual data if the prompt is factual, like if it asks for names or mostly asked questions and so on.
 
     **Output Format**:
     - Return only a numbered list of clear, concise, step-by-step instructions.
