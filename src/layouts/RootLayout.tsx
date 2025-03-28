@@ -1,6 +1,6 @@
 import { Outlet, useNavigation } from "react-router"
 import Header from '@/components/Header'
-import Footer from "@/components/Footer"
+// import Footer from "@/components/Footer"
 
 import {logo} from '@/assets';
 import { Loader2 } from "lucide-react";
@@ -15,7 +15,7 @@ const RootLayout = () => {
             <Outlet/>
         </main>
 
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
 
         {/* bg */}
         <div className="bg-primary/20 absolute top-20 left-0 w-80 h-10 rotate-45 origin-top-left blur-3xl"></div>
