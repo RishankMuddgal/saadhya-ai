@@ -146,7 +146,7 @@ function AppSideBar() {
 
                             {!projects?.total && (
                                 <SidebarMenuItem  >
-                                    <p className="text-muted-foreground text-sm p-2">Click + to ass new projects</p>
+                                    <p className="text-muted-foreground text-sm p-2">Click + to add new projects</p>
                                 </SidebarMenuItem>
                             )}
                             
